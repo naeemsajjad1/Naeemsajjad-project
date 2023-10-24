@@ -8,7 +8,7 @@ nav {
     height: 75px;
     line-height: 75px;
     padding: 0px 100px;
-    position: fixed;
+    position: absolute;
     background-image: linear-gradient(#ccd9dc, #d3d2e9);
 }
 nav .logo p{
@@ -26,11 +26,17 @@ nav ul{
 nav li {
     display: inline-block;
     list-style: none;
+    
 
 }
 nav li a{
     font-size: 17px;
-    padding: 0px 30px;
-    color: white;
+    padding: 20px 20px;
+    color: rgb(19, 1, 1);
     text-decoration: none;
+    background-color: white;
+    border-style: none;
+    margin: 7px;
 }
+
+
