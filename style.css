@@ -8,7 +8,7 @@ nav {
     height: 75px;
     line-height: 75px;
     padding: 0px 100px;
-    position: absolute;
+    position: sticky;
     background-image: linear-gradient(#ccd9dc, #d3d2e9);
 }
 nav .logo p{
@@ -38,5 +38,20 @@ nav li a{
     border-style: none;
     margin: 7px;
 }
-
-
+.helloworld {
+    text-align: center;
+    padding: 40px 20px;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-bottom: 7px;
+}
+.p-intro {
+    text-align: center;
+    font-size: 15px;
+    padding: 0;
+    padding-bottom: 8%;
+}
+.image-button{
+   padding: 15px 9%;
+   display: grid;
+}
