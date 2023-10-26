@@ -78,9 +78,11 @@ nav li a{
 }
 .box-container{
    margin: 5rem auto;
-   width: min(90%, 75rem);
+   width: min(40%, 75rem);
    display: grid;
    grid-template-columns: 33% 33% 33%;
+   
+   
    
   
 }
@@ -93,6 +95,15 @@ nav li a{
 }
 .emergency-container {
     text-align: center;
+}
+.box {
+    padding: 0.5rem;
+   width: auto;
+ 
+}
+.box:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 
